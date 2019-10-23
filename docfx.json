@@ -8,8 +8,7 @@
           ]
         }
       ],
-      "dest": "obj",
-      "filter": "filter.yml"
+      "dest": "obj"
     }
   ],
   "build": {
