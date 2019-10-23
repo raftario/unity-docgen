@@ -25,6 +25,9 @@
     "template": [
       "statictoc"
     ],
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ],
     "globalMetadata": {
       "_disableContribution": true
     }
