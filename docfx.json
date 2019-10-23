@@ -23,12 +23,17 @@
     ],
     "dest": "docs",
     "template": [
-      "statictoc"
+      "default"
     ],
     "xrefService": [
       "https://xref.docs.microsoft.com/query?uid={uid}"
     ],
+    "disableGitFeatures": true,
     "globalMetadata": {
+      "_appTitle": "API Documentation",
+      "_appFooter": "API Documentation",
+      "_enableSearch": true,
+      "_enableNewTab": true,
       "_disableContribution": true
     }
   }
