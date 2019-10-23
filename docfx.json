@@ -1,0 +1,33 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/**.dll"
+          ]
+        }
+      ],
+      "dest": "obj",
+      "filter": "filter.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "index.md",
+          "obj/**.yml",
+          "toc.yml"
+        ]
+      }
+    ],
+    "dest": "docs",
+    "template": [
+      "statictoc"
+    ],
+    "globalMetadata": {
+      "_disableContribution": true
+    }
+  }
+}
